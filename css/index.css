@@ -7,11 +7,11 @@ body {
 
 header {
     background-color: beige;
-    margin-bottom: 20px;
+    margin-bottom: -5px;
 }
 
 .image-logo img {
-    width: 190px; 
+    width: 150px; 
     height: auto; 
 }
 
@@ -25,9 +25,29 @@ header aside {
 
 .presentation {
     text-align: center;
+}
+
+.presentation .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.presentation h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: -10px;
+}
+
+.presentation .subtitle {
+    font-size: 1.4em;
+    color: #666;
+    margin-bottom: -10px;
+}
+
+.presentation p {
+    font-size: 1em;
+    color: #444;
 }
 
 .projects {
@@ -44,7 +64,7 @@ header aside {
     outline: none;
     text-decoration: none;
     background: #F9F9F9;
-    max-width: 200px;
+    max-width: 300px;
     margin: 20px auto; 
     border-radius: 3px;
     box-shadow: 0 2px 5px 1px #DADADA;
@@ -57,7 +77,7 @@ header aside {
 
 .card img {
     width: 100%;
-    width: 120px;
+    width: 100px;
     height: auto;
 }
 
