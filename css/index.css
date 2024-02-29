@@ -83,7 +83,7 @@ header aside {
     margin-bottom: 20px;
 }
 
-footer {
+.site-footer {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin: 0 auto;
@@ -92,18 +92,18 @@ footer {
     position: relative; 
 }
 
-footer p {
+.site-footer p {
     font-size: 16px;
     margin-bottom: 10px;
 }
 
-footer a {
+.site-footer a {
     color: #007bff; 
     text-decoration: none;
     padding-bottom: 2px;
 }
 
-footer a:hover {
+.site-footer a:hover {
     color: #0056b3; 
     border-bottom: 1px solid #007bff; 
 }
