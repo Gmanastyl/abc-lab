@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box; 
     overflow: hidden;
+    background-color: #F0F0F0;
 }
 
 header {
@@ -134,8 +135,8 @@ header aside {
         }
     
         .card {
-            max-width: calc(100% - 40px); 
+            max-width: calc(100% - 1px); 
             margin-left: auto;
             margin-right: auto;
         }
-    }
+}
